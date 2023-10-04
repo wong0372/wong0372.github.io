@@ -39,6 +39,52 @@
             </tr>
         </tbody>
     </table>
+
+    <!-- Adding section for contact form -->
+    <section>
+        <h3>We would love to hear from you!</h3>
+        <!-- Adding a form -->
+        <form action="thanks.html" method="post">
+        <div>
+            <label for="fullestname">Your name</label>
+            <input type="text" id="fullestname" name="fullname" placeholder="Jane/Joe Doe">
+        </div>
+        <div>
+            <label for="your email">Email</label>
+            <input type="email" id="youremail" placeorder="Algonquin Email" value="@algonquinlive.com" required>
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message"></textarea>
+        </div>
+        <div>
+            <label for="">How many tickets? &#40;sold in pairs&#41;</label>
+            <input type="number" name="tickets" id="tickets" min="2" max="10" step="2" value="2">
+        </div>
+        <div>
+            <label for="row">Row</label>
+            <select name="row" id="row">
+                <option value="front">From Row</option>
+                <option value="center" selected>Center Row</option>
+                <option value="back">Back Row</option>
+            </select>
+        </div>
+        <div>
+            <h3>Have you been here before</h3>
+            <label for="yes">Yes</label>
+            <input type="radio" name="past" id="yes">
+
+            <label for="no">No</label>
+            <input type="radio" name="past" id="no">
+        </div>
+        <div>
+            <h3>Policies</h3>
+            <input type="checkbox" name="policies" id="policies">
+            <label for="policied">I agree to the terms and conditions.</label>
+        </div>
+        <button type="button">Submit</button>
+        </form>
+    </section>
   </main>
   <!-- Site footer -->
   <footer>
