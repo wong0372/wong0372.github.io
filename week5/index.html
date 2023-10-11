@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <title>Reggie's coffee shop - Home</title>
+  <link rel="stylesheet" href="css/main.css">
 </head>
 
 <body>
@@ -16,14 +17,14 @@
     <h1>Reggie's coffee shop</h1>
     <nav>
       <ul>
-        <li><a href="index.html">Home</a></li>
+        <li><a href="index.html" class="current">Home</a></li>
         <li><a href="contact.html">Contact Us</a></li>
       </ul>
     </nav>
   </header>
   <main>
     <!-- Adding an on page link -->
-    <a href="#treatoftheweek">Treat of the Week</a>
+    <a href="#treatoftheweek" class="blue-link">Treat of the Week</a>
     <article>
       <h2>Our story</h2>
       <!-- Adding an image -->
@@ -34,7 +35,7 @@
         <abbr title="Chief Excutive officer">CEO</abbr> and head barista of the shop. Maria is the pastry chef and is in
         charge of the bake shop. Celebrating their 10<sup>th</sup> anniversary together in March 2024.
       </p>
-      <blockquote>
+      <blockquote class="large-text">
         We love coffee! <cite>- Reggie and Maria</cite>
       </blockquote>
       <hr>
@@ -65,8 +66,8 @@
     </section>
     <!-- Adding a section for a description list-->
     <section id="treatoftheweek">
-      <h3>Treat of the week</h3>
-      
+      <h3 class="white-text">Treat of the week</h3>
+      <dl class="white-text">
         <dt>Name</dt>
         <dd>Banana Bread</dd>
 
@@ -93,7 +94,7 @@
     <!-- Adding section for Menu Table -->
     <section>
       <h3>Menus Specials</h3>
-      <table border>
+      <table>
           <thead>
               <tr>
                 <th colspan="2">Items</th>
@@ -120,7 +121,7 @@
     </section>
   </main>
   <!-- Site footer -->
-  <footer>
+  <footer class="site footer">
     <!-- Special symbols for html can be found by googling html entitles -->
     Copyright &copy; Reggie's Coffee shop, 2023
   </footer>
