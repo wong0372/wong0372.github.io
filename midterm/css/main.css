@@ -1,0 +1,112 @@
+/* Change all font style */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Add background color for body */
+body {
+    background-color: #aad4cf;
+}
+
+/* Change color of container */
+
+.container {
+    /* create a container containing everything inside the body */
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 10px;
+    background-color: #d4e9e7;
+}
+
+/* Add a background of starfish for h1 & change font color*/
+h1 {
+    background-image:url(../images/lone-starfish-wide.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 200px;
+    font-size: 64px;
+    color: white;
+    text-align: center;
+    margin: -10px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+/* Adding border on the right side */
+.navborder {
+    border-right: 1px solid black;
+}
+
+/* Change the display style of navigation*/
+nav ul {
+    list-style: none;
+    padding: 0px;
+    display: flex;
+    margin: 14px auto;
+  }
+  
+  nav li {
+    font-size: 24px;
+    text-align: center;
+    flex:1;
+    padding: 10px;
+  }
+
+
+/* Change image size and location*/
+img {
+    width: 20%;
+    float:left;
+    margin-right: 20px;
+}
+
+/* Change line height & font size of paragraphy */
+p {
+    line-height: 1.5em;
+    font-size: 18px;
+}
+
+/* Add border for contact to learn more */
+aside {
+        border: 1.5px solid black;
+        padding: 20px;
+        line-height:2rem;
+}
+
+/* Adjust the width & height of the form */
+#fullname, #youremail {
+    width: 100%;
+    line-height: 20px;
+}
+
+#yourmessage {
+    width: 100%;
+    line-height: 20px;
+    height: 100px;
+    resize: none;
+}
+
+/* Change the font size of the question */
+.question {
+    font-size: 20px;
+}
+
+/* Change the setting of SEND button */
+.custom-button {
+    background-color: #d4e9e7;
+    text-transform: uppercase;
+    padding:10px; 
+  }
+
+/* Adjust the alignment of footer */
+footer {
+    text-align: right;
+    padding: 30px 30px 20px 0;
+}
