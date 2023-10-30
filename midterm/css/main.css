@@ -1,36 +1,41 @@
-/* Change all font style */
-* {
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-/* Add background color for body */
+/* Body - Add background color, change font family & size */
 body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #aad4cf;
+    font-size: 18px;
 }
 
 /* Change color of container */
-
 .container {
-    /* create a container containing everything inside the body */
-    max-width: 1000px;
+    max-width: 1100px;
     margin: 0 auto; 
-    padding: 10px;
     background-color: #d4e9e7;
 }
 
-/* Add a background of starfish for h1 & change font color*/
-h1 {
-    background-image:url(../images/lone-starfish-wide.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    padding: 200px;
-    font-size: 64px;
-    color: white;
-    text-align: center;
-    margin: -10px;
+/* Change image size and the color, position of site-title*/
+header {
+    position: relative;
 }
 
+header img {
+    width: 100%;
+    height:100%;
+}
+
+.site-title {
+    position: absolute;
+    font-size: 40pt;
+    color: white;
+    top: 40%;
+    left:35%;
+}
+
+ /* Adds padding for the main body */
+.current {
+    padding: 0 10px 0 10px;
+}
+
+/* Change h2 & h3 font size */
 h2 {
     font-size: 30px;
 }
@@ -47,12 +52,11 @@ h3 {
 /* Change the display style of navigation*/
 nav ul {
     list-style: none;
-    padding: 0px;
     display: flex;
     margin: 14px auto;
   }
   
-  nav li {
+nav li {
     font-size: 24px;
     text-align: center;
     flex:1;
@@ -62,7 +66,7 @@ nav ul {
 
 /* Change image size and location*/
 img {
-    width: 20%;
+    width: 23%;
     float:left;
     margin-right: 20px;
 }
@@ -70,7 +74,6 @@ img {
 /* Change line height & font size of paragraphy */
 p {
     line-height: 1.5em;
-    font-size: 18px;
 }
 
 /* Add border for contact to learn more */
@@ -95,7 +98,8 @@ aside {
 
 /* Change the font size of the question */
 .question {
-    font-size: 20px;
+    font-size: 22px;
+    padding: 10px 0 10px 0;
 }
 
 /* Change the setting of SEND button */
@@ -108,5 +112,5 @@ aside {
 /* Adjust the alignment of footer */
 footer {
     text-align: right;
-    padding: 30px 30px 20px 0;
+    padding: 30px 30px 30px 0;
 }
