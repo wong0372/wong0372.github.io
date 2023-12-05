@@ -103,7 +103,7 @@ h3 {
     color: white;
     font-size: 5em;
     font-weight: bold;
-    margin-top:30px;
+    margin-top:25px;
     margin-left: 10px;
     line-height: 5rem;
 
@@ -124,6 +124,8 @@ h3 {
     border: none;
     margin: 10px;
     font-size: 1rem;
+    position: absolute;
+    bottom: 1%;
 }
 
 .connectwithustext {
@@ -484,10 +486,6 @@ footer {
 #youremail, 
 #yourmessage {
     width: 95%;
-}
-
-iframe {
-    height:70%;
 }
 
 }
