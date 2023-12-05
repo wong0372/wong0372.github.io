@@ -1,0 +1,493 @@
+/*
+font-family: 'Open Sans', sans-serif;
+*/
+
+/* Global style */
+.container {
+    max-width: 1200px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 12px;
+    margin: auto;
+}
+
+/* Change font size for h2,h3 */
+
+h2 {
+    font-size: 2.5rem;
+    margin-top:20px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    margin-left:5px;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding-top:20px;
+    padding-bottom:20px;
+}
+
+/* Navbar - from logo to magnifying-glass */
+.navbar {
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+}
+
+.logocontainer {
+    background-color: #c78c06;
+}
+
+.nav-list a:hover,
+.nav-list a:focus,
+.nav-list a.current {
+    background-color: #c78c06;
+    color:#222222;
+    text-decoration: none;
+}
+
+.nav-list a,
+.nav-list :link {
+  display: block;
+  padding: 1em 0;
+  text-align: center; 
+  text-decoration: none;
+  color:#c78c06
+}
+
+.nav-list {
+    margin-top:0;
+    margin-bottom:0;
+    list-style: none;
+    padding:0;
+    font-size: 1rem;
+}
+
+#search {
+    width: 90%;
+    line-height: 22px;
+    margin: 10px 0 10px 10px;
+}
+
+.fa-magnifying-glass {
+    color:#c78c06;
+    background-color: #222222;
+    border: 1px solid #c78c06;
+    padding:2px;
+    font-size: 20px;
+    margin:0;
+    height: 23px;
+}
+
+/* Banner + welcome container */
+.welcomebackground {
+    background: url(../images/main-banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    height: 100vh;
+}
+
+.welcome {
+    width: auto;
+    position: absolute; 
+    top: 15%;
+    bottom:15%;
+    height: 55%;
+    padding: 10px;
+    background-color: rgba(22, 22, 22, 0.7);
+}
+
+.welcome h1 {
+    color: white;
+    font-size: 5em;
+    font-weight: bold;
+    margin-top:30px;
+    margin-left: 10px;
+    line-height: 5rem;
+
+}
+
+.welcome p {
+    color: white;
+    font-size: 12px;
+    margin:10px;
+    line-height: 20px;
+}
+
+.connectwithus {
+    background-color: #c78c06;
+    color: black;
+    padding:2rem;
+    text-decoration: none;
+    border: none;
+    margin: 10px;
+    font-size: 1rem;
+}
+
+.connectwithustext {
+    margin-right: 10px;
+}
+
+/* Change aboutus image size and place a card to include about us info*/
+.aboutus {
+    background-color: #ffe6ac;
+    padding: 10px;
+}
+
+.aboutusimage {
+    max-width: 100%;
+    height: auto;
+}
+
+.aboutus p {
+    line-height: 20px;
+}
+
+.aboutus .p1 {
+    padding-bottom:10px;
+}
+/* Edit our services section */
+/* Place card conatainers, Edit image size & button */
+.digital, 
+.marketing,
+.video,
+.web,
+.print,
+.john,
+.bob {
+    background-color: #ffe6ac;
+    margin: 5px;
+}
+
+.allservicesimage,
+.johnimage,
+.bobimage {
+width:100%;
+}
+
+.digitalplans,
+.marketingplans,
+.videoplans,
+.webplans,
+.printplans{
+    background-color: #222222;
+    color: white;
+    padding:1.8rem;
+    border: none;
+    margin: 10px 10px 10px 10px;
+    font-size: 1rem;
+}
+
+.ourservicestext {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 20px;
+}
+/* Edit our vision section - add background + edit button*/
+.ourvision {
+    background: url(../images/vision.jpg) no-repeat center;
+    background-size:cover;
+    position:relative;
+    max-width: 100%;
+    height:auto;
+    color: white;
+    padding:10px 10px 10px 10px;
+}
+
+.ourvisionbutton {
+    background-color: #222222;
+    color: white;
+    padding:1.8rem;
+    border: 1px solid #c78c06;
+    margin: 10px 10px 10px 0px;
+    font-size: 1rem;
+}
+
+.ourvision p {
+    line-height: 20px;
+}
+
+/* Edit our team section */
+.ourteam h3 {
+    margin:0;
+    padding-top:10px;
+    padding-left:10px;
+    padding-bottom: 7px;
+}
+
+.underline {
+    font-weight: bold;
+    margin: 0;
+    padding-left:10px;
+    padding-bottom: 2px;
+    border-bottom:2px solid #c78c06;
+}
+
+.ourteam .para {
+    padding: 10px 10px 20px 10px;
+    line-height: 20px;
+}
+
+.teammargin,
+.teammargin1 {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* Contact Us */
+/* Send us a message */
+#fullname, #youremail {
+    width: 100%;
+    line-height: 20px;
+    margin: 5px 0 10px 0;;
+}
+
+#yourmessage {
+    width: 100%;
+    line-height: 20px;
+    height: 100px;
+    resize: none;
+    margin-top: 5px;
+}
+
+.custom-button {
+    background-color: #222222;
+    color: #c78c06;
+    padding:5px;
+    border: none;
+    font-size: 1rem; 
+  }
+
+/* Hours of opeartion - styling a table */
+table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+th, td{
+    border:1px solid black;
+    padding: 15px;
+
+}
+
+th {
+    background-color: #ffe6ac;
+}
+
+/* Location - change map size */
+iframe {
+    width:100%
+}
+
+/* Footer*/
+footer {
+    background-color: #222222;
+    color: #c78c06;
+    padding:20px;
+    margin-top: 20px;
+}
+
+
+/************* Desktop style ***********/
+@media screen and (min-width: 760px) {
+
+/* Navbar - add flex */
+.logocontainer {
+    background-color: transparent;
+}
+
+.navbar .logo {
+    transform: scale(0.6);
+
+}
+
+.navbar {
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-evenly; 
+}
+
+.nav-list {
+    display: flex;
+    flex-grow: 2;
+    gap: 3rem;
+    font-size:1rem;
+
+}
+
+#search {
+    width: auto;
+}
+
+/* Welcome container - change size */
+.welcomebackground {
+    background: url(../images/main-banner.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    width:100%;
+    height: 70vh;
+}
+
+.welcome {
+    width: 80%;
+    margin: 0 auto; 
+    position: absolute; 
+    top: 15%;
+    bottom: 15%; 
+    height: 70%;
+    padding: 10px;
+    background-color: rgba(22, 22, 22, 0.7);
+    left:10%;
+    right:10%;
+}
+
+.welcome h1 {
+    font-size: 4rem;
+}
+
+.welcome p {
+    font-size: 14px;
+}
+
+.connectwithus {
+    position: absolute;
+    bottom:5%
+}
+
+/* About us - add grid */
+.aboutus {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    gap:10px;
+}
+
+.aboutusimage {
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+/* Our services - add grid area */
+.ourservices {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(3, auto);
+    grid-template-areas: 
+    "header header header header header header"
+    "digi digi digi market market market"
+    "video video web web print print"
+    ;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.ourservices > h2 {
+    grid-area: header;
+
+}
+
+.ourservices .digital{
+    grid-area: digi;
+
+}
+
+.ourservices .marketing{
+    grid-area: market;
+
+}
+
+.ourservices .video{
+    grid-area: video;
+
+}
+
+.ourservices .web{
+    grid-area: web;
+
+}
+.ourservices .print{
+    grid-area: print;
+
+}
+
+.digitalplans,
+.marketingplans,
+.videoplans,
+.webplans,
+.printplans {
+    width:93%;
+  }
+
+/* Our Version - change text padding*/
+.ourvision {
+    padding-left:80px;
+}
+
+/* Our team - add grid */
+.ourteam {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.john,
+.bob {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.bob {
+    margin-top:0;
+}
+
+.john {
+    margin-bottom:0;
+}
+
+.teammargin1{
+    order: -1;
+}
+
+/* Contact us - add grid area */
+.contactus {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(3, auto);
+    margin-left: 80px;
+    margin-right: 80px;
+    grid-template-areas: 
+    "header header"
+    "send location"
+    "hours hours"
+    ;
+}
+
+.contactus h2 {
+    grid-area: header;
+}
+
+.send {
+    grid-area: send;
+}
+
+.location{
+    grid-area: location;
+}
+
+.hours{
+    grid-area: hours;
+    margin: 10px 10px 0px 10px;
+}
+
+#fullname, 
+#youremail, 
+#yourmessage {
+    width: 95%;
+}
+
+iframe {
+    height:70%;
+}
+
+}
